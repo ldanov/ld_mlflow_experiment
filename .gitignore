@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# MLFlow binaries
+/data
+
+# local files
+/local
