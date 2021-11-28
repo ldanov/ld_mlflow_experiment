@@ -4,7 +4,7 @@ version: '3'
 
 services:
   mlflow:
-    image: ld_mt_experiment:latest
+    image: mlflow_xp:latest
     build: .
     ports:
       - "5000:5000"

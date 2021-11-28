@@ -1,7 +1,7 @@
 # References https://docs.docker.com/engine/reference/builder/
 FROM continuumio/miniconda3:4.10.3
 
-ARG conda_env=ld_mt_experiment
+ARG conda_env=mlflow_xp
 
 # Create the environment:
 COPY ./environment.yml /tmp/environment.yml

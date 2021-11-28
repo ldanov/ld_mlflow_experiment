@@ -1,4 +1,4 @@
-# ld_mt_experiment
+# mlflow_xp
 Infrastructure setup for ML experiments
 
 
@@ -8,7 +8,7 @@ Docker and docker-compose need to be installed on the system. See the [docker do
 # Running
 ```
 # building the docker image
-sudo docker build -t ld_mt_experiment -f Dockerfile .
+sudo docker build -t mlflow_xp -f Dockerfile .
 # running the image in a new container
 sudo docker-compose up -d
 ```
@@ -16,11 +16,11 @@ Now you can access the MLFlow server under the [localhost:5000](localhost:5000) 
 
 # Stopping
 ```
-sudo docker ps -q --filter ancestor=ld_mt_experiment | xargs -I{} sudo docker stop {}
+sudo docker ps -q --filter ancestor=mlflow_xp | xargs -I{} sudo docker stop {}
 ```
 
 # Overview of running containers
 ```
-# Find the container based on the ld_mt_experiment image
+# Find the container based on the mlflow_xp image
 sudo docker ps
 ```

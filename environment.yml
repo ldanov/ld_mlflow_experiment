@@ -1,4 +1,4 @@
-name: ld_mt_experiment
+name: mlflow_xp
 channels:
   - conda-forge
   - defaults
